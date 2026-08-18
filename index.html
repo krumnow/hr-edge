@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1" />
+  <meta name="theme-color" content="#0b0f14" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="HR Edge" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="apple-touch-icon" href="icon-192.png" />
+  <title>HR Edge</title>
+  <style>
+    :root {
+      --bg: #0b0f14;
+      --card: #12181f;
+      --border: #1e2833;
+      --text: #e8eef4;
+      --muted: #8b9aab;
+      --green: #22c55e;
+      --red: #ef4444;
+      --amber: #f59e0b;
+      --blue: #38bdf8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+      min-height: 100%;
+      -webkit-font-smoothing: antialiased;
+    }
+    body {
+      padding: env(safe-area-inset-top) 12px env(safe-area-inset-bottom);
+      max-width: 480px;
+      margin: 0 auto;
+    }
+    header {
+      padding: 16px 4px 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      background: linear-gradient(var(--bg) 70%, transparent);
+      z-index: 10;
+    }
+    .logo {
+      font-weight: 700;
+      font-size: 1.25rem;
+      letter-spacing: -0.02em;
+    }
+    .logo span { color: var(--green); }
+    .date-badge {
+      font-size: 0.75rem;
+      color: var(--muted);
+      background: var(--card);
+      border: 1px solid var(--border);
+      padding: 4px 10px;
+      border-radius: 999px;
+    }
+    .tabs {
+      display: flex;
+      gap: 6px;
+      margin: 4px 0 14px;
+      overflow-x: auto;
+      padding-bottom: 4px;
+    }
+    .tab {
+      flex: 0 0 auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .tab.active {
+      background: #16301f;
+      border-color: #225c38;
+      color: var(--green);
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 12px 14px;
+      margin-bottom: 10px;
+    }
+    .rank-row {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+    }
+    .rank {
+      width: 28px;
+      height: 28px;
+      border-radius: 8px;
+      background: #1a2330;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--muted);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .rank.top { background: #16301f; color: var(--green); }
+    .main { flex: 1; min-width: 0; }
+    .name {
+      font-weight: 650;
+      font-size: 1rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .meta {
+      font-size: 0.75rem;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+    .metrics {
+      display: flex;
+      gap: 10px;
+      margin-top: 8px;
+      flex-wrap: wrap;
+    }
+    .metric {
+      background: #0e141b;
+      border-radius: 8px;
+      padding: 5px 8px;
+      font-size: 0.72rem;
+    }
+    .metric b { color: var(--text); font-weight: 650; }
+    .metric.good b { color: var(--green); }
+    .metric.warn b { color: var(--amber); }
+    .metric.bad b { color: var(--red); }
+    .exp {
+      text-align: right;
+      flex-shrink: 0;
+    }
+    .exp-val {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--green);
+      line-height: 1.1;
+    }
+    .exp-label {
+      font-size: 0.65rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .section-title {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      margin: 18px 4px 8px;
+      font-weight: 600;
+    }
+    .wx-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+    .wx-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 10px 12px;
+    }
+    .wx-park { font-weight: 650; font-size: 0.9rem; }
+    .wx-line { font-size: 0.75rem; color: var(--muted); margin-top: 3px; }
+    .wx-mult {
+      margin-top: 6px;
+      font-size: 0.8rem;
+      font-weight: 650;
+    }
+    .wx-mult.up { color: var(--green); }
+    .wx-mult.down { color: var(--red); }
+    .footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.7rem;
+      padding: 24px 8px 32px;
+      line-height: 1.5;
+    }
+    .install-hint {
+      background: #13201a;
+      border: 1px solid #1f4a30;
+      border-radius: 12px;
+      padding: 12px 14px;
+      margin: 8px 0 14px;
+      font-size: 0.8rem;
+      color: #a7f3c0;
+      display: none;
+    }
+    .install-hint.show { display: block; }
+    .search {
+      width: 100%;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 11px 14px;
+      color: var(--text);
+      font-size: 0.95rem;
+      margin-bottom: 12px;
+      outline: none;
+    }
+    .search:focus { border-color: #2a5c3d; }
+    .empty {
+      text-align: center;
+      color: var(--muted);
+      padding: 40px 16px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">HR <span>Edge</span></div>
+    <div class="date-badge" id="dateBadge">—</div>
+  </header>
+
+  <div class="install-hint" id="installHint">
+    <b>Add to Home Screen</b><br>
+    Safari: Share → Add to Home Screen<br>
+    Chrome: Menu → Install app / Add to Home screen
+  </div>
+
+  <div class="tabs" id="tabs">
+    <button class="tab active" data-tab="top">Top Board</button>
+    <button class="tab" data-tab="weather">Weather</button>
+    <button class="tab" data-tab="coors">Coors</button>
+    <button class="tab" data-tab="hot">Hot Parks</button>
+  </div>
+
+  <input class="search" id="search" placeholder="Search batter, team, park…" type="search" />
+
+  <div id="list"></div>
+  <div id="weatherPanel" style="display:none"></div>
+
+  <div class="footer">
+    xHR + park + weather model · Not financial advice<br>
+    Data: MLB Stats API · Baseball Savant · Open-Meteo
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
