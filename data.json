@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "generated": "2026-08-19T02:46:20",
+  "generated": "2026-08-19T04:14:47",
   "slate": [
     {
       "game_pk": 824318,
@@ -24,7 +24,14 @@
       "weather_mult": 0.98,
       "hand_adj": 1.0,
       "p_hr_pa": 0.1324,
-      "exp_hr_4pa": 0.529
+      "exp_hr_4pa": 0.529,
+      "barrel_rate": 16.7,
+      "avg_ev": 90.6,
+      "xiso": 0.236,
+      "bat_hand": "R",
+      "p_game": 0.4333979084103423,
+      "fair_odds": "+131",
+      "p_game_pct": 43.3
     },
     {
       "game_pk": 822937,
@@ -48,7 +55,14 @@
       "weather_mult": 1.06,
       "hand_adj": 1.0,
       "p_hr_pa": 0.1263,
-      "exp_hr_4pa": 0.505
+      "exp_hr_4pa": 0.505,
+      "barrel_rate": 13.4,
+      "avg_ev": 92.7,
+      "xiso": 0.233,
+      "bat_hand": "R",
+      "p_game": 0.41729419737414386,
+      "fair_odds": "+140",
+      "p_game_pct": 41.7
     },
     {
       "game_pk": 823424,
@@ -72,7 +86,14 @@
       "weather_mult": 1.051,
       "hand_adj": 1.08,
       "p_hr_pa": 0.1235,
-      "exp_hr_4pa": 0.494
+      "exp_hr_4pa": 0.494,
+      "barrel_rate": 0.0,
+      "avg_ev": 0.0,
+      "xiso": "",
+      "bat_hand": "L",
+      "p_game": 0.4097884803699373,
+      "fair_odds": "+144",
+      "p_game_pct": 41.0
     },
     {
       "game_pk": 824318,
@@ -96,7 +117,14 @@
       "weather_mult": 0.98,
       "hand_adj": 1.0,
       "p_hr_pa": 0.1208,
-      "exp_hr_4pa": 0.483
+      "exp_hr_4pa": 0.483,
+      "barrel_rate": 16.7,
+      "avg_ev": 93.5,
+      "xiso": 0.284,
+      "bat_hand": "L",
+      "p_game": 0.40248237850583046,
+      "fair_odds": "+148",
+      "p_game_pct": 40.2
     },
     {
       "game_pk": 824318,
@@ -120,7 +148,14 @@
       "weather_mult": 0.98,
       "hand_adj": 1.0,
       "p_hr_pa": 0.1097,
-      "exp_hr_4pa": 0.439
+      "exp_hr_4pa": 0.439,
+      "barrel_rate": 14.1,
+      "avg_ev": 90.5,
+      "xiso": 0.241,
+      "bat_hand": "L",
+      "p_game": 0.371731199369872,
+      "fair_odds": "+169",
+      "p_game_pct": 37.2
     },
     {
       "game_pk": 824476,
@@ -144,7 +179,14 @@
       "weather_mult": 1.022,
       "hand_adj": 1.08,
       "p_hr_pa": 0.1008,
-      "exp_hr_4pa": 0.403
+      "exp_hr_4pa": 0.403,
+      "barrel_rate": 13.3,
+      "avg_ev": 90.1,
+      "xiso": 0.217,
+      "bat_hand": "R",
+      "p_game": 0.34622969144279037,
+      "fair_odds": "+189",
+      "p_game_pct": 34.6
     },
     {
       "game_pk": 822937,
@@ -168,7 +210,14 @@
       "weather_mult": 1.06,
       "hand_adj": 1.08,
       "p_hr_pa": 0.0965,
-      "exp_hr_4pa": 0.386
+      "exp_hr_4pa": 0.386,
+      "barrel_rate": 10.2,
+      "avg_ev": 91.0,
+      "xiso": 0.184,
+      "bat_hand": "L",
+      "p_game": 0.33363431049993764,
+      "fair_odds": "+200",
+      "p_game_pct": 33.4
     },
     {
       "game_pk": 824476,
@@ -192,7 +241,14 @@
       "weather_mult": 1.022,
       "hand_adj": 1.03,
       "p_hr_pa": 0.0955,
-      "exp_hr_4pa": 0.382
+      "exp_hr_4pa": 0.382,
+      "barrel_rate": 13.7,
+      "avg_ev": 93.8,
+      "xiso": 0.201,
+      "bat_hand": "S",
+      "p_game": 0.33067925653993757,
+      "fair_odds": "+202",
+      "p_game_pct": 33.1
     },
     {
       "game_pk": 822937,
@@ -216,7 +272,14 @@
       "weather_mult": 1.06,
       "hand_adj": 1.08,
       "p_hr_pa": 0.0951,
-      "exp_hr_4pa": 0.38
+      "exp_hr_4pa": 0.38,
+      "barrel_rate": 0.0,
+      "avg_ev": 0.0,
+      "xiso": "",
+      "bat_hand": "L",
+      "p_game": 0.32949448728711983,
+      "fair_odds": "+203",
+      "p_game_pct": 32.9
     },
     {
       "game_pk": 823424,
@@ -240,7 +303,14 @@
       "weather_mult": 1.051,
       "hand_adj": 1.08,
       "p_hr_pa": 0.092,
-      "exp_hr_4pa": 0.368
+      "exp_hr_4pa": 0.368,
+      "barrel_rate": 0.0,
+      "avg_ev": 0.0,
+      "xiso": "",
+      "bat_hand": "L",
+      "p_game": 0.32025911270399987,
+      "fair_odds": "+212",
+      "p_game_pct": 32.0
     },
     {
       "game_pk": 824318,
@@ -264,7 +334,14 @@
       "weather_mult": 0.98,
       "hand_adj": 1.08,
       "p_hr_pa": 0.0906,
-      "exp_hr_4pa": 0.362
+      "exp_hr_4pa": 0.362,
+      "barrel_rate": 0.0,
+      "avg_ev": 0.0,
+      "xiso": "",
+      "bat_hand": "L",
+      "p_game": 0.31605717249011045,
+      "fair_odds": "+216",
+      "p_game_pct": 31.6
     },
     {
       "game_pk": 823424,
@@ -288,7 +365,14 @@
       "weather_mult": 1.051,
       "hand_adj": 1.0,
       "p_hr_pa": 0.0884,
-      "exp_hr_4pa": 0.354
+      "exp_hr_4pa": 0.354,
+      "barrel_rate": 0.0,
+      "avg_ev": 0.0,
+      "xiso": "",
+      "bat_hand": "R",
+      "p_game": 0.30941480106800645,
+      "fair_odds": "+223",
+      "p_game_pct": 30.9
     },
     {
       "game_pk": 823424,
@@ -312,7 +396,14 @@
       "weather_mult": 1.051,
       "hand_adj": 1.08,
       "p_hr_pa": 0.0866,
-      "exp_hr_4pa": 0.346
+      "exp_hr_4pa": 0.346,
+      "barrel_rate": 0.0,
+      "avg_ev": 0.0,
+      "xiso": "",
+      "bat_hand": "L",
+      "p_game": 0.3039442441838064,
+      "fair_odds": "+229",
+      "p_game_pct": 30.4
     },
     {
       "game_pk": 822937,
@@ -336,7 +427,14 @@
       "weather_mult": 1.06,
       "hand_adj": 1.0,
       "p_hr_pa": 0.0842,
-      "exp_hr_4pa": 0.337
+      "exp_hr_4pa": 0.337,
+      "barrel_rate": 0.0,
+      "avg_ev": 0.0,
+      "xiso": "",
+      "bat_hand": "R",
+      "p_game": 0.29659968775667056,
+      "fair_odds": "+237",
+      "p_game_pct": 29.7
     },
     {
       "game_pk": 824318,
@@ -360,7 +458,14 @@
       "weather_mult": 0.98,
       "hand_adj": 1.08,
       "p_hr_pa": 0.0828,
-      "exp_hr_4pa": 0.331
+      "exp_hr_4pa": 0.331,
+      "barrel_rate": 7.9,
+      "avg_ev": 88.9,
+      "xiso": 0.169,
+      "bat_hand": "R",
+      "p_game": 0.29228861166589437,
+      "fair_odds": "+242",
+      "p_game_pct": 29.2
     },
     {
       "game_pk": 824476,
@@ -384,7 +489,14 @@
       "weather_mult": 1.022,
       "hand_adj": 1.0,
       "p_hr_pa": 0.0824,
-      "exp_hr_4pa": 0.33
+      "exp_hr_4pa": 0.33,
+      "barrel_rate": 9.8,
+      "avg_ev": 88.7,
+      "xiso": 0.196,
+      "bat_hand": "L",
+      "p_game": 0.29105324405514243,
+      "fair_odds": "+244",
+      "p_game_pct": 29.1
     },
     {
       "game_pk": 823664,
@@ -408,7 +520,14 @@
       "weather_mult": 1.032,
       "hand_adj": 1.08,
       "p_hr_pa": 0.0812,
-      "exp_hr_4pa": 0.325
+      "exp_hr_4pa": 0.325,
+      "barrel_rate": 15.8,
+      "avg_ev": 92.5,
+      "xiso": 0.276,
+      "bat_hand": "L",
+      "p_game": 0.28733743586096616,
+      "fair_odds": "+248",
+      "p_game_pct": 28.7
     },
     {
       "game_pk": 822937,
@@ -432,7 +551,14 @@
       "weather_mult": 1.06,
       "hand_adj": 1.0,
       "p_hr_pa": 0.0803,
-      "exp_hr_4pa": 0.321
+      "exp_hr_4pa": 0.321,
+      "barrel_rate": 7.0,
+      "avg_ev": 91.0,
+      "xiso": 0.161,
+      "bat_hand": "R",
+      "p_game": 0.28454100864335197,
+      "fair_odds": "+251",
+      "p_game_pct": 28.5
     },
     {
       "game_pk": 824318,
@@ -456,7 +582,14 @@
       "weather_mult": 0.98,
       "hand_adj": 1.03,
       "p_hr_pa": 0.0796,
-      "exp_hr_4pa": 0.318
+      "exp_hr_4pa": 0.318,
+      "barrel_rate": 8.2,
+      "avg_ev": 87.8,
+      "xiso": 0.16,
+      "bat_hand": "S",
+      "p_game": 0.2823603264204544,
+      "fair_odds": "+254",
+      "p_game_pct": 28.2
     },
     {
       "game_pk": 824318,
@@ -480,7 +613,14 @@
       "weather_mult": 0.98,
       "hand_adj": 1.0,
       "p_hr_pa": 0.0743,
-      "exp_hr_4pa": 0.297
+      "exp_hr_4pa": 0.297,
+      "barrel_rate": 8.7,
+      "avg_ev": 89.7,
+      "xiso": 0.186,
+      "bat_hand": "L",
+      "p_game": 0.26568727381816004,
+      "fair_odds": "+276",
+      "p_game_pct": 26.6
     },
     {
       "game_pk": 824801,
@@ -504,7 +644,14 @@
       "weather_mult": 1.034,
       "hand_adj": 1.0,
       "p_hr_pa": 0.0737,
-      "exp_hr_4pa": 0.295
+      "exp_hr_4pa": 0.295,
+      "barrel_rate": 14.0,
+      "avg_ev": 94.2,
+      "xiso": 0.26,
+      "bat_hand": "R",
+      "p_game": 0.2637816189557438,
+      "fair_odds": "+279",
+      "p_game_pct": 26.4
     },
     {
       "game_pk": 822937,
@@ -528,7 +675,14 @@
       "weather_mult": 1.06,
       "hand_adj": 1.08,
       "p_hr_pa": 0.0733,
-      "exp_hr_4pa": 0.293
+      "exp_hr_4pa": 0.293,
+      "barrel_rate": 4.0,
+      "avg_ev": 84.8,
+      "xiso": 0.099,
+      "bat_hand": "L",
+      "p_game": 0.26250912340104804,
+      "fair_odds": "+281",
+      "p_game_pct": 26.3
     },
     {
       "game_pk": 823424,
@@ -552,7 +706,14 @@
       "weather_mult": 1.051,
       "hand_adj": 1.08,
       "p_hr_pa": 0.0724,
-      "exp_hr_4pa": 0.29
+      "exp_hr_4pa": 0.29,
+      "barrel_rate": 17.7,
+      "avg_ev": 93.2,
+      "xiso": 0.259,
+      "bat_hand": "L",
+      "p_game": 0.2596399776481024,
+      "fair_odds": "+285",
+      "p_game_pct": 26.0
     },
     {
       "game_pk": 824155,
@@ -576,7 +737,14 @@
       "weather_mult": 1.036,
       "hand_adj": 1.0,
       "p_hr_pa": 0.071,
-      "exp_hr_4pa": 0.284
+      "exp_hr_4pa": 0.284,
+      "barrel_rate": 16.0,
+      "avg_ev": 90.2,
+      "xiso": 0.245,
+      "bat_hand": "R",
+      "p_game": 0.25516023231899987,
+      "fair_odds": "+292",
+      "p_game_pct": 25.5
     },
     {
       "game_pk": 823748,
@@ -600,7 +768,14 @@
       "weather_mult": 0.971,
       "hand_adj": 1.08,
       "p_hr_pa": 0.0695,
-      "exp_hr_4pa": 0.278
+      "exp_hr_4pa": 0.278,
+      "barrel_rate": 13.9,
+      "avg_ev": 92.5,
+      "xiso": 0.219,
+      "bat_hand": "L",
+      "p_game": 0.2503379781849375,
+      "fair_odds": "+299",
+      "p_game_pct": 25.0
     },
     {
       "game_pk": 822937,
@@ -624,7 +799,14 @@
       "weather_mult": 1.06,
       "hand_adj": 1.08,
       "p_hr_pa": 0.0694,
-      "exp_hr_4pa": 0.277
+      "exp_hr_4pa": 0.277,
+      "barrel_rate": 3.5,
+      "avg_ev": 87.7,
+      "xiso": 0.114,
+      "bat_hand": "L",
+      "p_game": 0.25001566421235044,
+      "fair_odds": "+300",
+      "p_game_pct": 25.0
     },
     {
       "game_pk": 824476,
@@ -648,7 +830,14 @@
       "weather_mult": 1.022,
       "hand_adj": 1.08,
       "p_hr_pa": 0.0691,
-      "exp_hr_4pa": 0.276
+      "exp_hr_4pa": 0.276,
+      "barrel_rate": 0.0,
+      "avg_ev": 0.0,
+      "xiso": "",
+      "bat_hand": "R",
+      "p_game": 0.24904809867346367,
+      "fair_odds": "+302",
+      "p_game_pct": 24.9
     },
     {
       "game_pk": 823424,
@@ -672,7 +861,14 @@
       "weather_mult": 1.051,
       "hand_adj": 1.0,
       "p_hr_pa": 0.0687,
-      "exp_hr_4pa": 0.275
+      "exp_hr_4pa": 0.275,
+      "barrel_rate": 6.0,
+      "avg_ev": 89.1,
+      "xiso": 0.138,
+      "bat_hand": "R",
+      "p_game": 0.24775655533830387,
+      "fair_odds": "+304",
+      "p_game_pct": 24.8
     },
     {
       "game_pk": 824318,
@@ -696,7 +892,14 @@
       "weather_mult": 0.98,
       "hand_adj": 1.08,
       "p_hr_pa": 0.0684,
-      "exp_hr_4pa": 0.274
+      "exp_hr_4pa": 0.274,
+      "barrel_rate": 4.8,
+      "avg_ev": 84.7,
+      "xiso": 0.132,
+      "bat_hand": "L",
+      "p_game": 0.24678680509232642,
+      "fair_odds": "+305",
+      "p_game_pct": 24.7
     },
     {
       "game_pk": 824318,
@@ -720,7 +923,14 @@
       "weather_mult": 0.98,
       "hand_adj": 1.08,
       "p_hr_pa": 0.0676,
-      "exp_hr_4pa": 0.27
+      "exp_hr_4pa": 0.27,
+      "barrel_rate": 0.0,
+      "avg_ev": 0.0,
+      "xiso": "",
+      "bat_hand": "L",
+      "p_game": 0.2441962203975424,
+      "fair_odds": "+310",
+      "p_game_pct": 24.4
     },
     {
       "game_pk": 823664,
@@ -744,7 +954,14 @@
       "weather_mult": 1.032,
       "hand_adj": 1.08,
       "p_hr_pa": 0.0671,
-      "exp_hr_4pa": 0.268
+      "exp_hr_4pa": 0.268,
+      "barrel_rate": 13.3,
+      "avg_ev": 91.7,
+      "xiso": 0.222,
+      "bat_hand": "L",
+      "p_game": 0.24257371514819204,
+      "fair_odds": "+312",
+      "p_game_pct": 24.3
     },
     {
       "game_pk": 824318,
@@ -768,7 +985,14 @@
       "weather_mult": 0.98,
       "hand_adj": 1.08,
       "p_hr_pa": 0.0661,
-      "exp_hr_4pa": 0.264
+      "exp_hr_4pa": 0.264,
+      "barrel_rate": 0.0,
+      "avg_ev": 0.0,
+      "xiso": "",
+      "bat_hand": "R",
+      "p_game": 0.239320869127976,
+      "fair_odds": "+318",
+      "p_game_pct": 23.9
     },
     {
       "game_pk": 823424,
@@ -792,7 +1016,14 @@
       "weather_mult": 1.051,
       "hand_adj": 1.0,
       "p_hr_pa": 0.0659,
-      "exp_hr_4pa": 0.264
+      "exp_hr_4pa": 0.264,
+      "barrel_rate": 0.0,
+      "avg_ev": 0.0,
+      "xiso": "",
+      "bat_hand": "R",
+      "p_game": 0.23866904471730377,
+      "fair_odds": "+319",
+      "p_game_pct": 23.9
     },
     {
       "game_pk": 824318,
@@ -816,7 +1047,14 @@
       "weather_mult": 0.98,
       "hand_adj": 1.08,
       "p_hr_pa": 0.0647,
-      "exp_hr_4pa": 0.259
+      "exp_hr_4pa": 0.259,
+      "barrel_rate": 4.5,
+      "avg_ev": 83.8,
+      "xiso": 0.12,
+      "bat_hand": "L",
+      "p_game": 0.23474929674251188,
+      "fair_odds": "+326",
+      "p_game_pct": 23.5
     },
     {
       "game_pk": 824318,
@@ -840,7 +1078,14 @@
       "weather_mult": 0.98,
       "hand_adj": 1.0,
       "p_hr_pa": 0.0637,
-      "exp_hr_4pa": 0.255
+      "exp_hr_4pa": 0.255,
+      "barrel_rate": 6.3,
+      "avg_ev": 87.3,
+      "xiso": 0.139,
+      "bat_hand": "R",
+      "p_game": 0.23147129456386384,
+      "fair_odds": "+332",
+      "p_game_pct": 23.1
     },
     {
       "game_pk": 822937,
@@ -864,7 +1109,14 @@
       "weather_mult": 1.06,
       "hand_adj": 1.0,
       "p_hr_pa": 0.0629,
-      "exp_hr_4pa": 0.252
+      "exp_hr_4pa": 0.252,
+      "barrel_rate": 0.0,
+      "avg_ev": 0.0,
+      "xiso": "",
+      "bat_hand": "R",
+      "p_game": 0.2288413195759118,
+      "fair_odds": "+337",
+      "p_game_pct": 22.9
     },
     {
       "game_pk": 823342,
@@ -888,7 +1140,14 @@
       "weather_mult": 1.047,
       "hand_adj": 1.08,
       "p_hr_pa": 0.0612,
-      "exp_hr_4pa": 0.245
+      "exp_hr_4pa": 0.245,
+      "barrel_rate": 12.4,
+      "avg_ev": 91.2,
+      "xiso": 0.197,
+      "bat_hand": "L",
+      "p_game": 0.22323021539120647,
+      "fair_odds": "+348",
+      "p_game_pct": 22.3
     },
     {
       "game_pk": 824640,
@@ -912,7 +1171,14 @@
       "weather_mult": 0.931,
       "hand_adj": 1.0,
       "p_hr_pa": 0.0613,
-      "exp_hr_4pa": 0.245
+      "exp_hr_4pa": 0.245,
+      "barrel_rate": 12.7,
+      "avg_ev": 90.3,
+      "xiso": 0.221,
+      "bat_hand": "L",
+      "p_game": 0.22356112535386397,
+      "fair_odds": "+347",
+      "p_game_pct": 22.4
     },
     {
       "game_pk": 823424,
@@ -936,7 +1202,14 @@
       "weather_mult": 1.051,
       "hand_adj": 1.08,
       "p_hr_pa": 0.0612,
-      "exp_hr_4pa": 0.245
+      "exp_hr_4pa": 0.245,
+      "barrel_rate": 3.6,
+      "avg_ev": 87.1,
+      "xiso": 0.094,
+      "bat_hand": "L",
+      "p_game": 0.22323021539120647,
+      "fair_odds": "+348",
+      "p_game_pct": 22.3
     },
     {
       "game_pk": 824318,
@@ -960,7 +1233,14 @@
       "weather_mult": 0.98,
       "hand_adj": 1.0,
       "p_hr_pa": 0.0604,
-      "exp_hr_4pa": 0.241
+      "exp_hr_4pa": 0.241,
+      "barrel_rate": 6.0,
+      "avg_ev": 88.8,
+      "xiso": 0.129,
+      "bat_hand": "L",
+      "p_game": 0.2205791263846144,
+      "fair_odds": "+353",
+      "p_game_pct": 22.1
     }
   ],
   "weather": [
