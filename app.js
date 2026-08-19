@@ -102,9 +102,21 @@ function renderList() {
               <div class="d-label">Barrel Rate</div>
               <div class="d-val">${r.barrel_rate ? fmt(r.barrel_rate, 1) + "%" : "—"}</div>
             </div>
-            <div class="d-item">
-              <div class="d-label">Spray (P / C / O)</div>
-              <div class="d-val">${(r.pull_pct || r.center_pct || r.oppo_pct) ? `${fmt(r.pull_pct,1)} / ${fmt(r.center_pct,1)} / ${fmt(r.oppo_pct,1)}` : "—"}</div>
+            <div class="d-item full">
+              <div class="d-label">Spray Chart</div>
+              ${(r.pull_pct || r.center_pct || r.oppo_pct) ? `
+              <div class="spray-chart">
+                <div class="spray-bar">
+                  <div class="seg pull" style="width:${Number(r.pull_pct||0)}%"></div>
+                  <div class="seg center" style="width:${Number(r.center_pct||0)}%"></div>
+                  <div class="seg oppo" style="width:${Number(r.oppo_pct||0)}%"></div>
+                </div>
+                <div class="spray-legend">
+                  <span class="leg pull">Pull ${fmt(r.pull_pct,1)}%</span>
+                  <span class="leg center">Ctr ${fmt(r.center_pct,1)}%</span>
+                  <span class="leg oppo">Oppo ${fmt(r.oppo_pct,1)}%</span>
+                </div>
+              </div>` : `<div class="d-val">—</div>`}
             </div>
             <div class="d-item">
               <div class="d-label">Park Spray Fit</div>
