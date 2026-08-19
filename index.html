@@ -6,10 +6,10 @@
   <meta name="theme-color" content="#0b0f14" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="apple-mobile-web-app-title" content="HR Edge" />
+  <meta name="apple-mobile-web-app-title" content="Homerun Edge" />
   <link rel="manifest" href="manifest.json" />
   <link rel="apple-touch-icon" href="icon-192.png" />
-  <title>HR Edge</title>
+  <title>Homerun Edge</title>
   <style>
     :root {
       --bg: #0b0f14;
@@ -81,13 +81,6 @@
       background: #16301f;
       border-color: #225c38;
       color: var(--green);
-    }
-    .card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 12px 14px;
-      margin-bottom: 10px;
     }
     .rank-row {
       display: flex;
@@ -218,11 +211,65 @@
       padding: 40px 16px;
       font-size: 0.9rem;
     }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 12px 14px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      transition: border-color 0.15s;
+    }
+    .card.open {
+      border-color: #2a5c3d;
+    }
+    .card .name {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .chevron {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-left: 2px;
+    }
+    .detail {
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid var(--border);
+    }
+    .detail-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px 12px;
+    }
+    .d-item { }
+    .d-label {
+      font-size: 0.68rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 2px;
+    }
+    .d-val {
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+    .d-val.green { color: var(--green); }
+    .d-val.good { color: var(--green); }
+    .d-val.bad { color: var(--red); }
+    .d-val.warn { color: var(--amber); }
+    .metric.fair b { color: var(--blue); }
+    .d-sub {
+      font-weight: 400;
+      color: var(--muted);
+      font-size: 0.75rem;
+    }
   </style>
 </head>
 <body>
   <header>
-    <div class="logo">HR <span>Edge</span></div>
+    <div class="logo">Homerun <span>Edge</span></div>
     <div class="date-badge" id="dateBadge">—</div>
   </header>
 
