@@ -82,7 +82,7 @@ function renderList() {
             <div class="metrics">
               <div class="metric">xHR <b>${fmt(r.xhr_rate, 3)}</b></div>
               <div class="metric ${wxCls}">Wx <b>${fmt(r.weather_mult, 3)}</b></div>
-              <div class="metric fair">Fair <b>${r.fair_odds || "—"}</b></div>
+              <div class="metric fair">Fair <b>${r.p_game_pct != null ? r.p_game_pct + "%" : "—"}</b></div>
             </div>
           </div>
           <div class="exp">
@@ -101,6 +101,14 @@ function renderList() {
             <div class="d-item">
               <div class="d-label">Barrel Rate</div>
               <div class="d-val">${r.barrel_rate ? fmt(r.barrel_rate, 1) + "%" : "—"}</div>
+            </div>
+            <div class="d-item">
+              <div class="d-label">Spray (P / C / O)</div>
+              <div class="d-val">${(r.pull_pct || r.center_pct || r.oppo_pct) ? `${fmt(r.pull_pct,1)} / ${fmt(r.center_pct,1)} / ${fmt(r.oppo_pct,1)}` : "—"}</div>
+            </div>
+            <div class="d-item">
+              <div class="d-label">Park Spray Fit</div>
+              <div class="d-val">${r.spray_fit != null ? fmt(r.spray_fit, 3) + "×" : "—"}</div>
             </div>
             <div class="d-item">
               <div class="d-label">Season HR Rate</div>
@@ -135,16 +143,20 @@ function renderList() {
               <div class="d-val">${fmt(r.p_hr_pa, 3)}</div>
             </div>
             <div class="d-item">
-              <div class="d-label">Expected HR (4 PA)</div>
+              <div class="d-label">Projected PA</div>
+              <div class="d-val">${r.proj_pa != null ? fmt(r.proj_pa, 2) : "—"}</div>
+            </div>
+            <div class="d-item">
+              <div class="d-label">Expected HR</div>
               <div class="d-val green">${fmt(r.exp_hr_4pa, 3)}</div>
             </div>
             <div class="d-item">
-              <div class="d-label">P(HR in game)</div>
-              <div class="d-val">${r.p_game_pct != null ? r.p_game_pct + "%" : "—"}</div>
+              <div class="d-label">Fair Value</div>
+              <div class="d-val green">${r.p_game_pct != null ? r.p_game_pct + "%" : "—"}</div>
             </div>
             <div class="d-item">
-              <div class="d-label">Fair Odds</div>
-              <div class="d-val green">${r.fair_odds || "—"}</div>
+              <div class="d-label">As Odds</div>
+              <div class="d-val">${r.fair_odds || "—"}</div>
             </div>
           </div>
         </div>
